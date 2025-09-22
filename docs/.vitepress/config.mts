@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "TypeSquirrel",
   description: "带有类型诊断的squirrel语法扩展",
+  base: '/typesquirrel-vitepress/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
